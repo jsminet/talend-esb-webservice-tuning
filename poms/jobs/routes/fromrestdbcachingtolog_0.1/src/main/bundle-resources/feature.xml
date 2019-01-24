@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<features xmlns="http://karaf.apache.org/xmlns/features/v1.0.0" name="FromRestDBCachingtoLog-feature">
+<feature name="FromRestDBCachingtoLog-feature" version="0.1.0">
+<feature>camel-jdbc</feature>
+<feature>camel-jackson</feature>
+<feature>camel-spring</feature>
+<feature>camel-blueprint</feature>
+<feature>camel-core</feature>
+<feature>camel-cxf</feature>
+<feature>camel-ehcache</feature>
+<bundle>mvn:org.example.local_project.route/FromRestDBCachingtoLog/0.1.0</bundle>
+<config name="FromRestDBCachingtoLog.talendcontext.Default">
+</config>
+</feature>
+</features>
